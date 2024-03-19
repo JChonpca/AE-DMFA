@@ -26,7 +26,7 @@ L = 0.15
 
 g = 15
 
-data = np.array(pd.read_excel('活性炭吸附动力学.xlsx'))
+data = np.array(pd.read_excel('data.xlsx'))
 
 data_t = data[:,0]/60
 
@@ -173,7 +173,7 @@ L = 0.15
 
 g = 15
 
-data = np.array(pd.read_excel('活性炭吸附动力学.xlsx'))
+data = np.array(pd.read_excel('data.xlsx'))
 
 data_t = data[:,0]/60
 
